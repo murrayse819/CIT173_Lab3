@@ -1,0 +1,520 @@
+    1  echo $SHELL
+    2  zsh
+    3  echo $shell
+    4  echo $SHELL
+    5  zsh
+    6  sudo apt install zsh
+    7  echo $SHELL
+    8  zsh
+    9  env
+   10  echo $PATH
+   11  top
+   12  exit
+   13  which ls
+   14  whoami
+   15  netstat
+   16  ifconfig
+   17  uname -s
+   18  uname -n
+   19  uname -r
+   20  uname -v
+   21  uname -m
+   22  uname -p
+   23  uname -i
+   24  uname -o
+   25  uname -a
+   26  cpu
+   27  dir
+   28  ldir
+   29  uname
+   30  uname -a
+   31  cd /home/sally
+   32  cd
+   33  pwd
+   34  cd /home/scott
+   35  pwd
+   36  echo Hello
+   37  echo This is somewhat pointless thus far!
+   38  time pwd
+   39  set
+   40  exit
+   41  logout
+   42  type pwd
+   43  type cd
+   44  type bash
+   45  type -a cd
+   46  type -a pwd
+   47  time
+   48  /usr/bin/time
+   49  time pwd
+   50  /user/bin/time pwd
+   51  /usr/bin/time/ pwd
+   52  /usr/bin/ time pwd
+   53  /usr/bin/time pwd
+   54  time pwd
+   55  ./myprog
+   56  /home/scott/thisprog
+   57  /usr/bin/time pwd
+   58  /usr/bin/time
+   59  stty -ixon
+   60  history
+   61  mkdir test.
+   62  cd test
+   63  cd test.
+   64  touch one two three.
+   65  ls -1 three. 
+   66  less three. 
+   67  ps1="My New Prompt: "
+   68  exit
+   69  ps1="My New Prompt: "
+   70  PS1="My New Prompt: "
+   71  export PS1="Prompt: "
+   72  echo $PS1
+   73  echo $PATH
+   74  env.
+   75  env
+   76  man man
+   77  man export
+   78  man builtin
+   79  man man
+   80  man less
+   81  man -P /bin/more uname
+   82  man -k "system information"
+   83  info info
+   84  help command
+   85  exit
+   86  mkdir CIT173_Lab1
+   87  exit
+   88  cat env
+   89  ls
+   90  cd ./CIT173_Lab1/
+   91  env
+   92  export FAVORITE_ANIMAL=tiger
+   93  export MY_AGE=41
+   94  export BEST_PIZZA_TOPPING=olives
+   95  export MY_MIDDLE_NAME=evan
+   96  export MY_CAR_MAKE=honda
+   97  env
+   98  env > .my-env.txt
+   99  ls
+  100  cat my-env.txt
+  101  ls
+  102  cat file1.dat 
+  103  cat my-env.txt 
+  104  ls
+  105  cat my-sys-info.txt 
+  106  ls
+  107  rm file1.dat 
+  108  ls
+  109  man print
+  110  man pwd
+  111  man cat
+  112  man $PATH
+  113  man path
+  114  man env
+  115  ls
+  116  cat /etc/group
+  117  cat etc/group > ./my-groups.txt
+  118  cat /etc/group > ./my-groups.txt
+  119  ls
+  120  cat my-groups.txt 
+  121  ls
+  122  head -|128 /dev/urandom | tr -dc A-Za-z-0-9 | head -c 13 > ./file1.dat
+  123  ls
+  124  clear
+  125  ls
+  126  cat file1.dat
+  127  rm file1.dat 
+  128  ls
+  129  head -| 128 /dec/urandom | tr -dc A-Za-z-0-9 | head > ./file1.dat
+  130  man head
+  131  ls
+  132  rm file1.dat 
+  133  ls
+  134  $ head -| 128 /dev/urandom |tr -dc A-Za-z-0-9 | head > ./file1.dat
+  135  clear
+  136  ls
+  137  rm file1.dat 
+  138  ls
+  139  head /dev/urandom
+  140  clear
+  141  exit
+  142  ls
+  143  cd CIT173_Lab1/
+  144  ls
+  145  cat my-env.txt 
+  146  man head
+  147  ls
+  148  what is head -
+  149  clear
+  150  ls
+  151  man head
+  152  clear
+  153  ls
+  154  head -128 | /dev/urandom | tr -dc A-Za-z0-9 | head > ./file1.dat
+  155  ls
+  156  cat file1.dat
+  157  file1.dat
+  158  run file1.dat
+  159  clear
+  160  ls
+  161  rm file1
+  162  rm file1.dat 
+  163  ls
+  164  head --128 /dev/random |tr -dc A-Za-z0-9 
+  165  head -| 128 /dev/urandom | tr -dc A-Za-z0-9 | head > ./file1.dat
+  166  head - | 128 /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > ~/CIT173_Lab1/file1.dat
+  167  head /dev/urandom | tr -dc A-Za-z-0-9 | head -c 128 > .file1.dat
+  168  ls
+  169  cat file1.dat
+  170  ls
+  171  rm file1.dat 
+  172  ls
+  173  head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > ./file.dat
+  174  ls
+  175  cat file.dat
+  176  cat file.dat > data1.txt
+  177  cat data1.txt 
+  178  rm data1.txt 
+  179  rm file.dat 
+  180  ls
+  181  head /dev/urandom | tr -dc A-Za-z0-9 | head -c 128 > ./file1.dat
+  182  cat file1.dat 
+  183  ls
+  184  head /dev/urandom | tr -dc A-Za-z0-9 | head -c 128 > ./file2.dat
+  185  cat file2.dat 
+  186  ls
+  187  cat file1.dat file2.dat 
+  188  cat file1.dat file2.dat > ./monkey.dat
+  189  ls
+  190  cat monkey.dat 
+  191  ls
+  192  rm monkey.dat 
+  193  cat file1.dat file2.dat > ./my-concat-file.dat
+  194  ls
+  195  sed 's/1/monkey/g' ./my-concat-file.dat > ./monkey.dat
+  196  cat monkey.dat 
+  197  ls
+  198  git init
+  199  clear
+  200  ls
+  201  git push origin master
+  202  git commit -m "3rd attempt to get right"
+  203  git push origin master
+  204  git remote add origin https://github.com/murrayse819/CIT173_Lab1.git
+  205  git push -u origin master
+  206  git add ~/CIT173_Lab1/
+  207  git commit -m "3rd attempt to get it right"
+  208  git push -u origin master
+  209  ls
+  210  uname -a
+  211  cat /etc/group
+  212  clear
+  213  ls
+  214  rm my-groups.txt 
+  215  ls
+  216  cat /env/group | tee ./my-groups.txt
+  217  ls
+  218  rm my-groups.txt 
+  219  ls
+  220  cat /etc/group 
+  221  clear
+  222  ls
+  223  cat /etc/group | tee ./my-groups.txt
+  224  ls
+  225  cat my-groups.txt 
+  226  ls
+  227  head -n 128 /dev/urandom | tr -dc A-Za-z0-9 | head > ./file1.dat
+  228  head -n 128 /dev/urandom | tr -dc A-Za-z0-9 | head > ./file2.dat
+  229  cat my-concat-file.dat 
+  230  ls
+  231  cat file1.dat 
+  232  cat file1.dat file2.dat 
+  233  cat file1.dat file2.dat > my-concat-file.dat 
+  234  cat my-concat-file.dat 
+  235  ls
+  236  sed 
+  237  sed 's/1/monkey/g' my-concat-file.dat > monkey.dat 
+  238  cat monkey.dat 
+  239  git init
+  240  git add --all
+  241  git commit -m "4th attempt"
+  242  git push origin master
+  243  ls -l
+  244  mkdir CIT173_Lab2
+  245  ls
+  246  ls -l
+  247  cat $SHELL
+  248  6c6c6cq'
+
+'
+  249  ls
+  250  echo $SHELL
+  251  echo $0
+  252  type -a bash
+  253  type /bin/bash
+  254  type bash
+  255  type -bash
+  256  type -a bash
+  257  type -a /bin/bash
+  258  type -a bash
+  259  git clone https://github/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+  260  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+  261  ls
+  262  cd CIT173_Lab2_Files/
+  263  ls
+  264  cd
+  265  cd CIT173_Lab2_Files/
+  266  cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+  267  ls
+  268  cat my-phonebook.txt 
+  269  cat phonebook1.txt 
+  270  cat my-phonebook.txt 
+  271  man wc
+  272  wc my-phonebook.txt 
+  273  cat my-phonebook.txt | less
+  274  cat my-phonebook.txt 
+  275  less my-phonebook.txt 
+  276  cat my-phonebook.txt 
+  277  cat 
+  278  cat my-phonebook.txt | less
+  279  cat my-phonebook.txt my-phonebook.txt 
+  280  cat my-phonebook.txt my-phonebook.txt | less
+  281  cat phonelisting1.txt phonelisting2.txt > my-phonelisting.txt
+  282  ls
+  283  man tac
+  284  tac my-phonebook.txt > my-phonebook-reverse.txt
+  285  ls
+  286  join my-phonebook.txt my-phonelisting.txt > my-joined-phonebook.txt
+  287  ls
+  288  man unexpand
+  289  unexpand -a -t=2 my-phonebook.txt > my-tabbed-phonebook.txt
+  290  ls
+  291  unexpand -a -t2 my-phonebook.txt > my-tabbed-phonebook.txt
+  292  cat my-tabbed-phonebook.txt 
+  293  cat my-phonebook.txt
+  294  man unexpand
+  295  cat my-phonebook.txt
+  296  man unexpand
+  297  unexpand help
+  298  cat my-phonebook.txt
+  299  cat my-tabbed-phonebook.txt 
+  300  unexpand -a my-phonebook.txt > my-tabbed-phonebook.txt
+  301  cat my-tabbed-phonebook.txt 
+  302  cat my-phonebook.txt
+  303  unexpand  my-phonebook.txt > my-tabbed-phonebook.txt
+  304  cat my-tabbed-phonebook.txt 
+  305  expand my-tabbed-phonebook.txt 
+  306  unexpand my-tabbed-phonebook.txt 
+  307  unexpand -t2 my-tabbed-phonebook.txt 
+  308  unexpand -a-t2 my-tabbed-phonebook.txt 
+  309  unexpand -a -t2 my-tabbed-phonebook.txt 
+  310  unexpand -a -t10 my-tabbed-phonebook.txt 
+  311  unexpand -t9 my-tabbed-phonebook.txt 
+  312  unexpand -t10 my-tabbed-phonebook.txt 
+  313  unexpand -11 my-tabbed-phonebook.txt 
+  314  unexpand -20 my-tabbed-phonebook.txt 
+  315  rm my-tabbed-phonebook.txt 
+  316  ls
+  317  ls -l
+  318  cat my-phonebook.txt
+  319  unexpand my-phonebook.txt
+  320  unexpand -t9 my-phonebook.txt 
+  321  man unexpand
+  322  unexpand -a my-phonebook.txt 
+  323  cat -A my-phonebook.txt 
+  324  man cat
+  325  ls
+  326  unexpand my-phonebook.txt > my-tabbed-phonebook.txt
+  327  cat -A my-tabbed-phonebook.txt 
+  328  cat -t my-tabbed-phonebook.txt 
+  329  cat -vet my-phonebook.txt
+  330  cat -vet my-tabbed-phonebook.txt 
+  331  unexpand -a my-phonebook.txt > my-tabbed-phonebook.txt 
+  332  cat -vet my-tabbed-phonebook.txt 
+  333  cat -vet my phonebook.txt
+  334  cat -vet my-phonebook.txt
+  335  cat my-phonebook.txt
+  336  rm my-tabbed-phonebook.txt 
+  337  ls
+  338  fmt my-phonebook.txt
+  339  cat my-phonebook.txt
+  340  expand my-phonebook.txt > my-phonebook.txt
+  341  cat my-phonebook.txt
+  342  ls
+  343  rm my-phonebook.txt
+  344  ls
+  345  rm my-phonebook-reverse.txt 
+  346  cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+  347  cat my-phonebook.txt
+  348  cat my-joined-phonebook.txt 
+  349  unexpand my-joined-phonebook.txt 
+  350  unexpand -a my-joined-phonebook.txt 
+  351  ls -l
+  352  unexpand my-phonebook.txt > my-tabbed-phonebook.txt
+  353  ls -l
+  354  unexpand -a my-phonebook.txt > my-joined-phonebook.txt 
+  355  ls -l
+  356  cat -vet my-tabbed-phonebook.txt 
+  357  expand my-tabbed-phonebook.txt 
+  358  expand cat -vet my-tabbed-phonebook.txt 
+  359  expand my-tabbed-phonebook.txt | cat -vet
+  360  unexpand my-tabbed-phonebook.txt | cat -vet
+  361  cat my-tabbed-phonebook.txt 
+  362  cat -T my-tabbed-phonebook.txt 
+  363  ls -l
+  364  rm my-joined-phonebook.txt my-phonebook.txt my-phonelisting.txt my-tabbed-phonebook.txt 
+  365  ls -1
+  366  cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+  367  ls -l
+  368  wc my-phonebook.txt 
+  369  cat phonelisting1.txt phonelisting2.txt > my-phonelisting.txt
+  370  tac my-phonebook.txt > my-phonebook-reverse.txt
+  371  join my-phonebook.txt my-phonelisting.txt > my-joined-phonebook.txt
+  372  unexpand my-phonebook.txt>my-tabbed-phonebook.txt
+  373  cat -vet my-tabbed-phonebook.txt 
+  374  man cat
+  375  cat -vET my-tabbed-phonebook.txt 
+  376  sort my-phonebook.txt > my-sorted-phonebook.txt
+  377  cat my-sorted-phonebook.txt 
+  378  nl my-phonebook.txt > my-numbered-phonebook.txt 
+  379  cat my-numbered-phonebook.txt 
+  380  head -5 my-phonebook.txt > my-head-phonebook.txt
+  381  cat my-head-phonebook.txt 
+  382  tail my-phonebook.txt > my-tail-phonebook.txt
+  383  cat my-tail-phonebook.txt 
+  384  cat -5 my-phonebook.txt > my-tail-phonebook.txt 
+  385  tail -5 my-phonebook.txt > my-tail-phonebook.txt 
+  386  cat my-tail-phonebook.txt 
+  387  history > my-command-history.txt
+  388  cat my-command-history.txt 
+  389  git init
+  390  remote add origin https://github.com/murrayse819/CIT173_Lab2.git
+  391  sudo snap install remote
+  392  remote add origin https://github.com/murrayse819/CIT173_Lab2.git
+  393  git init
+  394  git remote add origin https://github.com/murrayse819/CIT173_Lab2.git
+  395  add --all
+  396  git add --all
+  397  commit -m "Initial commit"
+  398  git commit -m "Initial commit"
+  399  git push origin master
+  400  git init
+  401  git commit -m "Initial commit"
+  402  git remote add origin https://github.com/murrayse819/CIT173_Lab2.git
+  403  git push -u origin master
+  404  ls -l
+  405  cd
+  406  ls -l
+  407  cd CIT173_Lab2
+  408  ls
+  409  cd
+  410  ls -l
+  411  rmdir CIT173_Lab2
+  412  ls -l
+  413  mv CIT173_Lab2_Files/ CIT173_Lab2
+  414  ls -l
+  415  cd CIT173_Lab2
+  416  ls -1
+  417  ls -l
+  418  history > my-command-history.txt 
+  419  git init
+  420  git remote add origin https://github.com/murrayse819/CIT173_Lab2.git
+  421  git add --all
+  422  git commit "Initial commit"
+  423  git commit -m "Initial Commit"
+  424  git push origin master
+  425  git status
+  426  git push origin master
+  427  git push origin HEAD:master
+  428  git remote set-url origin git://github.com/murrayse819/CIT173_Lab2.git
+  429  git push origin master
+  430  git remote set-url origin https://github.com/murrayse819/CIT173_Lab2.git
+  431  git push origin master
+  432  ls -l
+  433  less my-phonebook.txt
+  434  ls
+  435  les my-joined-phonebook.txt 
+  436  less my-joined-phonebook.txt 
+  437  ls
+  438  less my-joined-phonebook.txt my-sorted-phonebook.txt 
+  439  ls -l
+  440  ifconfig eth0
+  441  man 7 regex
+  442  grep -r eth0 /etc/*
+  443  cd
+  444  grep -r eth0 /etc/*
+  445  sudo grep -r eth0 /etc/*
+  446  ls
+  447  whoami
+  448  mkdir CIT173_Lab3
+  449  ls
+  450  cd ~/
+  451  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab3_Files.git
+  452  ls -l
+  453  cd ~/CIT173_Lab3
+  454  sudo tar -xvf ~/CIT173_Lab3_Files/phonebook.tar.gz 
+  455  cat phonebook1.txt 
+  456  sudo cat phonebook1.txt
+  457  sudo sed -i 's/575/775/g' phonebook1.txt 
+  458  sudo cat phonebook1.txt 
+  459  sudo cat phonebook2.txt 
+  460  sudo sed -i 's/575/775/g' phonebook2.txt 
+  461  sudo cat phonebook2.txt 
+  462  sudo -i
+  463  pwd
+  464  man apt
+  465  ls
+  466  ls -l
+  467  man apt
+  468  apt-get python3-minimal
+  469  sudo apt-get update
+  470  sudo apt-get python3-minimal
+  471  python3-minimal -version
+  472  python3 -version
+  473  sudo apt-get install python3-minimal
+  474  man apt
+  475  apt-cache search
+  476  apt-cache search python3-minimal
+  477  man apt
+  478  apt
+  479  apt-list
+  480  apt list
+  481  apt
+  482  apt-cache showpkg python3-minimal
+  483  apt-cache showpkg python3-minimal > my-installed-1.txt
+  484  ls-l
+  485  ls -l
+  486  ./CIT173_Lab3_Files/hello.py > my-python-output.txt
+  487  ./hello.py > my-python-output.txt
+  488  cd ..
+  489  ls
+  490  cd CIT173_Lab3_Files/
+  491  ls
+  492  ./hello.py > ~/CIT173_Lab3/my-python-output.txt
+  493  sudo ./hello.py > ~/CIT173_Lab3/my-python-output.txt
+  494  man python
+  495  python -V
+  496  sudo python -V
+  497  python3 -V
+  498  ls
+  499  python3 hello.py
+  500  python3 hello.py > ~/CIT173_Lab3/my-python-output.txt
+  501  cd ..
+  502  ls
+  503  cd CIT173_Lab3
+  504  ls
+  505  cat my-python-output.txt 
+  506  cd ..
+  507  ls
+  508  cd CIT173_Lab3_Files/
+  509  python3 infinite.py &
+  510  ps
+  511  ps -A > ~/CIT173_Lab3/my-processes-1.txt
+  512  kill 17980
+  513  ps
+  514  man apt
+  515  apt-get remove python3-minimal 
+  516  sudo apt-get remove python3-minimal 
+  517  ps -A > ~/CIT173_Lab3/my-processes-2.txt
+  518  history > ~/CIT173_Lab3/my-command-history.txt

@@ -1,0 +1,40 @@
+Package: python3-minimal
+Versions: 
+3.6.7-1~18.04 (/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic-updates_main_binary-amd64_Packages) (/var/lib/dpkg/status)
+ Description Language: 
+                 File: /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_main_binary-amd64_Packages
+                  MD5: 582bd26e994ddf2c8fbf9e5e721b10df
+ Description Language: en
+                 File: /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_main_i18n_Translation-en
+                  MD5: 582bd26e994ddf2c8fbf9e5e721b10df
+ Description Language: 
+                 File: /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic-updates_main_binary-amd64_Packages
+                  MD5: 582bd26e994ddf2c8fbf9e5e721b10df
+
+3.6.5-3 (/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_main_binary-amd64_Packages)
+ Description Language: 
+                 File: /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_main_binary-amd64_Packages
+                  MD5: 582bd26e994ddf2c8fbf9e5e721b10df
+ Description Language: en
+                 File: /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_main_i18n_Translation-en
+                  MD5: 582bd26e994ddf2c8fbf9e5e721b10df
+ Description Language: 
+                 File: /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic-updates_main_binary-amd64_Packages
+                  MD5: 582bd26e994ddf2c8fbf9e5e721b10df
+
+
+Reverse Depends: 
+  python3,python3-minimal 3.6.7-1~18.04
+  systemd-tests,python3-minimal
+  python3,python3-minimal 3.1.2-2
+  python3,python3-minimal 3.1.2-2
+  wallstreet,python3-minimal
+  systemd-tests,python3-minimal
+  python3,python3-minimal 3.6.5-3
+Dependencies: 
+3.6.7-1~18.04 - python3.6-minimal (2 3.6.7-1~) dpkg (2 1.13.20) 
+3.6.5-3 - python3.6-minimal (2 3.6.5-2~) dpkg (2 1.13.20) 
+Provides: 
+3.6.7-1~18.04 - python3-minimal:any (= 3.6.7-1~18.04) 
+3.6.5-3 - python3-minimal:any (= 3.6.5-3) 
+Reverse Provides: 
